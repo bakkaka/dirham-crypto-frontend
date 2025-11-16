@@ -1,0 +1,9 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders Dirham Crypto text', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/Dirham Crypto/i);
+  expect(linkElement).toBeInTheDocument();
+});
