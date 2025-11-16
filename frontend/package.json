@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dirham-crypto-p2p",
   "version": "1.0.0",
   "private": true,
@@ -14,19 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "echo \"No tests for demo\" && exit 0",
+    "test": "echo \"No tests\" && exit 0",
     "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
